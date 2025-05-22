@@ -16,7 +16,4 @@ RUN g++ -std=c++17 -c Test.cpp -o Test.o
 
 RUN g++ lab6.o Test.o -o test_program -lgtest -lgtest_main -pthread
 
-CMD ["./test_program"]
-
-
 CMD ["./my_program"]
