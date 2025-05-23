@@ -27,8 +27,8 @@ jobs:
           context: .
           push: true
           tags: |
-          ghcr.io/rmommm/lab6:latest
-          ghcr.io/rmommm/lab6:${{ github.sha }}
+           ghcr.io/rmommm/lab6:latest
+           ghcr.io/rmommm/lab6:${{ github.sha }}
 
   test:
     needs: build-and-push
